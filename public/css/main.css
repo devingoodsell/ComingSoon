@@ -1,0 +1,133 @@
+.bs-callout {
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #eee;
+    border-left-width: 5px;
+    border-radius: 3px;
+}
+.bs-callout h4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.bs-callout p:last-child {
+    margin-bottom: 0;
+}
+.bs-callout code {
+    border-radius: 3px;
+}
+.bs-callout+.bs-callout {
+    margin-top: -5px;
+}
+.bs-callout-default {
+    border-left-color: #777;
+}
+.bs-callout-default h4 {
+    color: #777;
+}
+.bs-callout-primary {
+    border-left-color: #428bca;
+}
+.bs-callout-primary h4 {
+    color: #428bca;
+}
+.bs-callout-success {
+    border-left-color: #5cb85c;
+}
+.bs-callout-success h4 {
+    color: #5cb85c;
+}
+.bs-callout-danger {
+    border-left-color: #d9534f;
+}
+.bs-callout-danger h4 {
+    color: #d9534f;
+}
+.bs-callout-warning {
+    border-left-color: #f0ad4e;
+}
+.bs-callout-warning h4 {
+    color: #f0ad4e;
+}
+.bs-callout-info {
+    border-left-color: rgb(60,186,182);
+}
+.bs-callout-info h4 {
+    color: rgb(60,186,182);
+}
+
+.bg-primary,
+.bg-success,
+.bg-warning,
+.bg-danger,
+.bg-info {
+    margin: 0 0 0 10px;
+    padding: 15px 15px 15px 15px;
+}
+
+.badge-medium {
+    font-size:12px;
+    border-radius:20px;
+    padding:9px 7px;
+}
+
+.badge-large {
+    font-size: 30px;
+    min-width:40px;
+    border-radius: 30px;
+}
+
+.reverse {
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+}
+
+.horizontal-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.vertical-center {
+  min-height: 100%;
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+}
+
+.panel {
+    border-color: rgb(60,186,182);
+}
+
+.panel-info>.panel-heading {
+    background-color: rgb(60,186,182);
+    border-color: rgb(60,186,182);
+}
+
+.badge {
+    background-color: rgb(60,186,182);
+}
+
+.btn-info {
+    background-color: rgb(60,186,182);
+    border-color: rgb(51,164,160);
+}
+
+.btn-info:hover {
+    background-color: rgb(4,211,204);
+}
+
+.brighten-image {
+    filter: brightness(1.4);
+    -webkit-filter: brightness(1.4);
+    -moz-filter: brightness(1.4);
+    -o-filter: brightness(1.4);
+    -ms-filter: brightness(1.4);
+}
+
+a {
+    color: #666;
+}

@@ -1,0 +1,42 @@
+{
+  "name": "ComingSoon",
+  "version": "0.0.1",
+  "description": "A reusable web application written in node.js, express, angular, mongo (MEAN) stack, that provides a private beta or coming soon functionality to the end user. This integrates with mail chimp for collecting email addresses as well as a private mongo database.",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devingoodsell/ComingSoon.git"
+  },
+  "keywords": [
+    "MEAN",
+    "node.js",
+    "mongodb",
+    "express",
+    "angular",
+    "bootstrap",
+    "mailchimp"
+  ],
+  "author": "Devin Goodsell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devingoodsell/ComingSoon/issues"
+  },
+  "homepage": "https://github.com/devingoodsell/ComingSoon",
+  "dependencies": {
+    "async": "^0.9.0",
+    "body-parser": "^1.10.2",
+    "express": "^4.11.1",
+    "mailchimp-api": "^2.0.7",
+    "method-override": "^2.3.1",
+    "mongoose": "^3.8.22",
+    "winston": "^0.8.3"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.1.0",
+    "request": "^2.51.0"
+  }
+}
