@@ -1,7 +1,7 @@
 angular.module('comingSoon').controller('titleController', [
   '$scope', '$http', '$window', '$route', '$routeParams',
   function($scope, $http, $window, $route, $routeParams) {
-    $scope.isSubscribed = true;
+    $scope.isSubscribed = false;
     $scope.subscribeUser = function() {
       var user = $scope.user;
       $http.post('/api/users', user)
