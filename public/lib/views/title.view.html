@@ -1,0 +1,56 @@
+<div class="main" ng-controller="titleController" style="background-image: url('assets/images/title_background.jpg')">
+  <div class="cover black" data-color="black"></div>
+  <div class="container">
+    <h1 class="logo cursive">
+        My New Web App
+    </h1>
+    <div class="content">
+      <h4 class="motto">Are you ready for the next generation of web apps?</h4>
+      <div class="subscribe" ng-hide="isSubscribed">
+        <div class="row">
+          <div class="col-md-5 col-md-offset-3 col-sm-6 col-sm-offset-2 ">
+            <div class="alert alert-danger" ng-show="errorMessage">
+              <h4>
+                <i class="fa fa-frown-o"></i> Ooops there was a problem...<br/>
+                <small>{{errorMessage}}</small>
+              </h4>
+            </div>
+          </div>
+        </div>
+        <h5 class="info-text">
+            Join the waiting list for the beta.
+        </h5>
+        <div class="row">
+          <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 ">
+            <form class="form-inline" role="form">
+              <div class="form-group">
+                <label class="sr-only" for="firstname">First name</label>
+                <input name="firstname" ng-model="user.firstName" class="form-control transparent" placeholder="Your first name here...">
+              </div>
+              <div class="form-group">
+                <label class="sr-only" for="lastname">Last name</label>
+                <input name="lastname" ng-model="user.lastName" class="form-control transparent" placeholder="Your last name here...">
+              </div>
+              <div class="form-group">
+                <label class="sr-only" for="email">Email address</label>
+                <input type="email" name="email" ng-model="user.email" class="form-control transparent" placeholder="Your email here...">
+              </div>
+              <button type="submit" class="btn btn-info btn-fill" ng-click="subscribeUser()">Notify Me</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="row" ng-show"isSubscribed">
+        <div class="col-md-5 col-md-offset-3 col-sm-6 col-sm-offset-2 ">
+          <div class="alert alert-success" >
+            <h2 class="info-text">Thanks for sharing the <i class="fa fa-heart heart" style="color:#FF0000;"></i><br/>
+              <small>
+                We will keep you posted with newest updates.
+              </small>
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
