@@ -7,7 +7,6 @@ module.exports = {
   logLevel: "debug",
   mailChimp: {
     key: "",
-    userList: "",
-    claimBusinessList: ""
+    userList: ""
   }
 };

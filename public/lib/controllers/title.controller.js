@@ -6,7 +6,7 @@ angular.module('comingSoon').controller('titleController', [
       var user = $scope.user;
       $http.post('/api/users', user)
       .success(function() {
-        isSubscribed = true;
+        $scope.isSubscribed = true;
       }).error(function(data) {
         $scope.errorMessage = data.error || data;
       });
