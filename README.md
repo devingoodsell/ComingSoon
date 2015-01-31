@@ -5,7 +5,7 @@ collecting email addresses as well as a private mongo database.
 
 ##Screenshots
 <img src="screenshots/home.png"/><br/>
-<img src="screenshots/erorr.png"/><br/>
+<img src="screenshots/error.png"/><br/>
 <img src="screenshots/success.png"/><br/>
 
 ##Special Thanks
